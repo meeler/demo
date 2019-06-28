@@ -10,10 +10,6 @@ public class PatternTest {
 
     @Test
     public void test() {
-
-//        StringBuffer a = new StringBuffer();
-//        int length = a.length();
-//        System.out.println(length);
         //url匹配
         String reg = "(((https|http)?://)?([a-z0-9]+[.])|(www.))\\w+[.|\\/]([a-z0-9]{0,})?[[.]([a-z0-9]{0,})]+((/[\\S&&[^,;\u4E00-\u9FA5]]+)+)?([.][a-z0-9]{0,}+|/?)";
         Pattern pattern = Pattern.compile(reg);
