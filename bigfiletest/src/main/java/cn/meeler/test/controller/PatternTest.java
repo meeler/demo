@@ -2,8 +2,6 @@ package cn.meeler.test.controller;
 
 import org.junit.Test;
 
-import java.io.*;
-import java.util.Base64;
 import java.util.regex.Pattern;
 
 public class PatternTest {
@@ -20,7 +18,7 @@ public class PatternTest {
         String reg1 = "[1-9A-GY]{1}[1239]{1}[1-5]{1}[0-9]{5}[0-9A-Z]{10}";
         Pattern pattern1 = Pattern.compile(reg1);
         boolean matches1 = pattern1.matcher("91440300MA5EYKXC7W").matches();
-        System.out.println(matches1+"==============================");
+        System.out.println(matches1 + "==============================");
 
         String reg2 = "(111)";
         Pattern pattern2 = Pattern.compile(reg2);
