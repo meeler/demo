@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="/js/jquery-3.3.1.min.js"></script>
+    <script src="/uploader/webuploader.js"></script>
+</head>
+<body>
+<div id="meeler1">
+    <form id="meelerTest">
+        <input type="file" value="上传" id="meeler"/>
+    </form>
+    <p><label>转换的格式:</label><input id="geshi" type="text"></p>
+    <p> <label>缩放的比率:</label><input id="bilv" type="text"></p>
+    <p> <label>质量的比率:</label><input id="quality" type="text"></p>
+    <input type="button" value="预览" onclick="view()"/>
+    <input type="button" value="下载" onclick="download()"/>
+</div>
+</body>
+
+
+<script type="text/javascript">
+    var fullPath = window.document.location.href;
+    var pathName = window.document.location.pathname;
+    var hostPath = fullPath.substring(0, fullPath.indexOf(pathName));
+    var baseURL = hostPath;
+
+    function getXHR(){
+        var xhr = null;
+        if(XMLHttpRequest){
+            xhr = new XMLHttpRequest();
+        }else{
+            xhr = new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        return xhr;
+    }
+
+    function view(){
+        var file = document.getElementById("meeler").files[0];
+        var geshi = document.getElementById("geshi").value;
+        var bilv = document.getElementById("bilv").value;
+        var quality = document.getElementById("quality").value;
+        if (geshi=="tif"){
+            alert("tif文件由于浏览器不支持，请直接下载！")
+            return
+        }
+        var fd = new FormData();
+        fd.append('geshi', geshi);
+        fd.append('file', file);
+        fd.append("suofang",bilv);
+        fd.append("quality",quality);
+        var xhr = getXHR();
+        xhr.responseType = "blob";
+        xhr.open('POST' ,baseURL + "/transf", true);
+        xhr.onload = function() {
+            if (this.status == 200) {
+                console.log(this);
+                var blob = this.response;
+                var img = document.createElement("img");
+                img.onload = function(e) {
+                    window.URL.revokeObjectURL(img.src);
+                };
+                img.src = window.URL.createObjectURL(blob);
+                $("#meeler1").append(img);
+            }
+        }
+        //xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded; charset-UTF-8');
+        //xhr.send("user=root/pass=123"); #如果send传字符串，必须加上面的请求头, 如果传对象借助FormData,且不用加请求头
+        xhr.send(fd);
+    }
+    function download() {
+        var file = document.getElementById("meeler").files[0];
+        var geshi = document.getElementById("geshi").value;
+        var bilv = document.getElementById("bilv").value;
+        var quality = document.getElementById("quality").value;
+        var fd = new FormData();
+        fd.append('geshi', geshi);
+        fd.append('file', file);
+        fd.append("suofang",bilv);
+        fd.append("quality",quality);
+        var xhr = new XMLHttpRequest();
+        xhr.open('POST', baseURL + "/transf", true);
+        xhr.responseType = 'blob';
+        xhr.onload = function () {
+            if (xhr.status === 200) {
+                saveAs(xhr.response, "aaa."+geshi);
+            }
+        };
+        xhr.send(fd);
+    }
+
+    function saveAs(blob, filename) {
+        if (window.navigator.msSaveOrOpenBlob) {
+            navigator.msSaveBlob(blob, filename);
+        } else {
+            var link = document.createElement('a');
+            var body = document.querySelector('body');
+            link.href = window.URL.createObjectURL(blob);
+            link.download = filename;
+            // fix Firefox
+            link.style.display = 'none';
+            body.appendChild(link);
+            link.click();
+            body.removeChild(link);
+            window.URL.revokeObjectURL(link.href);
+        }
+    }
+</script>
+</html>
