@@ -6,42 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="387e1fbc-0ba7-4df7-a06c-d225246720dc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/meeler/test/controller/PatternTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meeler/test/controller/PatternTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-springmvc.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-springmvc.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-springmvc/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-springmvc/WEB-INF/classes/META-INF/bigfile-test.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-springmvc/WEB-INF/classes/cn/meeler/test/controller/Meeler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-springmvc/WEB-INF/classes/cn/meeler/test/controller/Meeler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-springmvc/WEB-INF/classes/cn/meeler/test/controller/MeelerUpload.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-springmvc/WEB-INF/classes/cn/meeler/test/controller/MeelerUpload.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-springmvc/WEB-INF/classes/cn/meeler/test/controller/bdss/BDSSDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-springmvc/WEB-INF/classes/cn/meeler/test/controller/bdss/BDSSDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-springmvc/WEB-INF/classes/cn/meeler/test/controller/icp/QueryICPByDomain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-springmvc/WEB-INF/classes/cn/meeler/test/controller/icp/QueryICPByDomain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-springmvc/WEB-INF/classes/cn/meeler/test/controller/interrupt/ChildLog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-springmvc/WEB-INF/classes/cn/meeler/test/controller/interrupt/ChildLog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-springmvc/WEB-INF/classes/cn/meeler/test/controller/interrupt/MeelerInterrupt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-springmvc/WEB-INF/classes/cn/meeler/test/controller/interrupt/MeelerInterrupt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-springmvc/WEB-INF/classes/cn/meeler/test/controller/interrupt/ToLog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-springmvc/WEB-INF/classes/cn/meeler/test/controller/interrupt/ToLog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-springmvc/WEB-INF/classes/cn/meeler/test/controller/md5spl/FileInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-springmvc/WEB-INF/classes/cn/meeler/test/controller/md5spl/FileInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-springmvc/WEB-INF/classes/cn/meeler/test/controller/md5spl/FileUploadController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-springmvc/WEB-INF/classes/cn/meeler/test/controller/md5spl/FileUploadController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-springmvc/WEB-INF/classes/cn/meeler/test/controller/mq/Recv$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-springmvc/WEB-INF/classes/cn/meeler/test/controller/mq/Recv$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-springmvc/WEB-INF/classes/cn/meeler/test/controller/mq/Recv.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-springmvc/WEB-INF/classes/cn/meeler/test/controller/mq/Recv.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-springmvc/WEB-INF/classes/cn/meeler/test/controller/mq/Send.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-springmvc/WEB-INF/classes/cn/meeler/test/controller/mq/Send.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-springmvc/WEB-INF/classes/cn/meeler/test/controller/pictransf/FileUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-springmvc/WEB-INF/classes/cn/meeler/test/controller/pictransf/FileUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-springmvc/WEB-INF/classes/cn/meeler/test/controller/pictransf/PictureTransform.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-springmvc/WEB-INF/classes/cn/meeler/test/controller/pictransf/PictureTransform.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-springmvc/WEB-INF/classes/cn/meeler/test/controller/qcc/Md5Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-springmvc/WEB-INF/classes/cn/meeler/test/controller/qcc/Md5Utils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-springmvc/WEB-INF/classes/cn/meeler/test/controller/qcc/QccUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-springmvc/WEB-INF/classes/cn/meeler/test/controller/qcc/QccUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-springmvc/WEB-INF/classes/cn/meeler/test/controller/solr/Picture.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-springmvc/WEB-INF/classes/cn/meeler/test/controller/solr/Picture.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-springmvc/WEB-INF/classes/cn/meeler/test/controller/solr/SolrTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-springmvc/WEB-INF/classes/cn/meeler/test/controller/solr/SolrTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-springmvc/WEB-INF/classes/cn/meeler/test/controller/sprider/ICPTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-springmvc/WEB-INF/classes/cn/meeler/test/controller/sprider/ICPTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-springmvc/WEB-INF/classes/cn/meeler/test/controller/tifTransfer/ImageConvert.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-springmvc/WEB-INF/classes/cn/meeler/test/controller/tifTransfer/ImageConvert.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-springmvc/WEB-INF/classes/cn/meeler/test/controller/tifTransfer/WebpToOther$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-springmvc/WEB-INF/classes/cn/meeler/test/controller/tifTransfer/WebpToOther$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-springmvc/WEB-INF/classes/cn/meeler/test/controller/tifTransfer/WebpToOther.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-springmvc/WEB-INF/classes/cn/meeler/test/controller/tifTransfer/WebpToOther.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-springmvc/WEB-INF/classes/cn/meeler/test/service/WebUploader$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-springmvc/WEB-INF/classes/cn/meeler/test/service/WebUploader$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-springmvc/WEB-INF/classes/cn/meeler/test/service/WebUploader$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-springmvc/WEB-INF/classes/cn/meeler/test/service/WebUploader$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-springmvc/WEB-INF/classes/cn/meeler/test/service/WebUploader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-springmvc/WEB-INF/classes/cn/meeler/test/service/WebUploader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-springmvc/WEB-INF/classes/cn/meeler/test/service/fileLock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-springmvc/WEB-INF/classes/cn/meeler/test/service/fileLock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-springmvc/WEB-INF/classes/cn/meeler/test/utils/HttpClientHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-springmvc/WEB-INF/classes/cn/meeler/test/utils/HttpClientHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-    </list>
+    <list default="true" id="387e1fbc-0ba7-4df7-a06c-d225246720dc" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -326,7 +291,7 @@
     </treeState>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="1932" />
     <option name="height" value="1047" />
@@ -383,7 +348,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561704699184" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561704786293" />
     <property name="last_opened_file_path" value="D:/Tools/Git/bin/git.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -686,7 +651,7 @@
       <workItem from="1560837010792" duration="29195000" />
       <workItem from="1560999233173" duration="25991000" />
       <workItem from="1561449833235" duration="18096000" />
-      <workItem from="1561703944799" duration="682000" />
+      <workItem from="1561703944799" duration="948000" />
     </task>
     <servers />
   </component>
@@ -723,7 +688,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="584643000" />
+    <option name="totallyTimeSpent" value="584909000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
