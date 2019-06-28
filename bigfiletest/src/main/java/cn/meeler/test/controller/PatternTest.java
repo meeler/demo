@@ -54,44 +54,5 @@ public class PatternTest {
         Pattern pattern7 = Pattern.compile(reg7);
         boolean matches7 = pattern7.matcher("ff8080816b54f27c016b6550be800df0").matches();
         System.out.println(matches7);
-
-
-
-    }
-
-
-    public void test2(){
-
-    }
-    public static String Base64ToFile(String encode, String originalName) {
-        String temppath = "D:/aaa/aaaaaaaa.jpg";
-        byte[] decode = Base64.getDecoder().decode(encode);
-        FileOutputStream fos = null;
-        BufferedOutputStream bos = null;
-        try {
-            fos = new FileOutputStream(temppath);
-            bos = new BufferedOutputStream(fos);
-            bos.write(decode);
-            return temppath;
-        } catch (Exception e) {
-            throw new RuntimeException(e);
-        } finally {
-            if (bos != null) {
-                try {
-                    bos.flush();
-                    bos.close();
-                } catch (IOException e) {
-                    throw new RuntimeException(e);
-                }
-            }
-            if (fos != null) {
-                try {
-                    fos.flush();
-                    fos.close();
-                } catch (IOException e) {
-                    throw new RuntimeException(e);
-                }
-            }
-        }
     }
 }
