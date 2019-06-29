@@ -327,7 +327,7 @@ public class GZYtest {
     public void qcc() throws IOException {
         HttpPost httpPost=new HttpPost("http://localhost:51110/icpQuery");
         List<NameValuePair> form = new ArrayList<>();
-        form.add(new BasicNameValuePair("domian","jd.com"));
+        form.add(new BasicNameValuePair("domian","aliyun.com"));
         UrlEncodedFormEntity entity = new UrlEncodedFormEntity(form);
         String result = toFormRequst(httpPost, entity);
         System.out.println(result);
